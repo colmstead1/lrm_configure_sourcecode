@@ -76,7 +76,7 @@ export default class ConfForm extends Component {
             <li id="localesNav" className="active"><a href="#locales">Locales</a></li>
             <li id="fileTypeNav" className=""><a href="#fileType">File Type</a></li>
             <li id="extensionsNav" className=""><a href="#extensions">Resource File Extensions</a></li>
-            <li id="confFilesNav" className=""><Link to="/confFiles">Files Being Configured</Link></li>
+            <li id="confFilesNav" className=""><Link to="/lrm_configure/confFiles">Files Being Configured</Link></li>
           </ul>
         </nav>
         <form className="formContainer" onSubmit={this.submit}>
@@ -241,7 +241,7 @@ export default class ConfForm extends Component {
         </form>
         <div className="container">
           <button type="submit" className="formButtons confButton" id="saveButton" onClick={save}>SAVE</button>
-          <Link to="/"><button type="submit" className="formButtons confButton" id="cancelButton">EXIT</button></Link>
+          <Link to="/lrm_configure/"><button type="submit" className="formButtons confButton" id="cancelButton">EXIT</button></Link>
         </div>
       </div>
     )

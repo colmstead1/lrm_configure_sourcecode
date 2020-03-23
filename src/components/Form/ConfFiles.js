@@ -10,9 +10,9 @@ export default class ConfFiles extends Component {
         </header>
         <nav>
           <ul id="nav">
-            <li><Link to="/form">Locales</Link></li>
-            <li><Link to="/form">File Type</Link></li>
-            <li><Link to="/form">Resource File Extensions</Link></li>
+            <li><Link to="/lrm_configure/form">Locales</Link></li>
+            <li><Link to="/lrm_configure/form">File Type</Link></li>
+            <li><Link to="/lrm_configure/form">Resource File Extensions</Link></li>
             <li className="active">Files Being Configured</li>
           </ul>
         </nav>

@@ -40,7 +40,7 @@ const Repos = ({id, title, configured, description, fileJson, fileResx, fileProp
         <div>
           <h2 id="inLine">{title}</h2>
           <aside>{isConf}</aside>
-          <Link to={{pathname: "/form", state:{id: {id}}}}><button className="confButton">{confButton}</button></Link>
+          <Link to={{pathname: "/lrm_configure/form", state:{id: {id}}}}><button className="confButton">{confButton}</button></Link>
         </div>
         <p>{description}</p>
         <p>{isJson}{jsonTitle}   {isResx}{resxTitle}   {isProperties}{proptertiesTitle}</p>

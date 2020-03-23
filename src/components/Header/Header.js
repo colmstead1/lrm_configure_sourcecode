@@ -8,7 +8,7 @@ export default class Header extends Component {
       <div id="header-div">
         <header className="container">
           <h1>LRM Configure</h1>
-          <Link to="/login"><button id="logout-button">Logout</button></Link>
+          <Link to="/lrm_configure/login"><button id="logout-button">Logout</button></Link>
         </header>
       </div>
     );

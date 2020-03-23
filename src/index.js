@@ -104,13 +104,13 @@ render((
   <Router>
     <App>
       <Switch>
-        <Route exact path="/login">
+        <Route exact path="/lrm_configure/login">
           <div>
             <Header/>
             <Login/>
           </div>
         </Route>
-        <Route exact path="/">
+        <Route exact path="/lrm_configure/">
           <div>
             <Header/>
             <div id="repo-page">
@@ -119,13 +119,13 @@ render((
             </div>
           </div>
         </Route>
-        <Route path="/form">
+        <Route path="/lrm_configure/form">
           <div>
             <Header/>
             <ConfForm slList={sourceLocaleList} tlList={targetLocaleList} eList={filePatternList} repos={repoList}/>
           </div>
         </Route>
-        <Route exact path="/confFiles">
+        <Route exact path="/lrm_configure/confFiles">
           <ConfFiles />
         </Route>
         <Route component={NotFound}/>
